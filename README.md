@@ -2,6 +2,7 @@
 
 Node/browser library to detect global/window namespace pollution.
 
+只允许已经注册过的 global 变量加入到全局变量，否则返回错误
 
 ## Installation
 

@@ -23,7 +23,7 @@ module.exports =
 		global.BBB = 'bbb';
 		global.CCC = 'ccc';
 
-		test.ok(antiglobal('BBB', 'CCC'));
+		test.ok(antiglobal('BBB', 'CCC', 'ZZZ'));
 		test.done();
 	},
 
